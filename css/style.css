@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hide{
+    display: none; 
+}
+.car{
+width: 50px;
+height: 100px;
+background: transparent url('../image/blue.png') center / cover no-repeat;
+transform: rotate(180deg);
+position: absolute;
+left: 125px;
+bottom: 10px;
+}
+.gameArea{
+    width: 300px;
+    height: 100vh;
+    position: relative;
+    margin: auto;
+    background: #999;
+}
+.line{
+    position: absolute;
+    width: 10px;
+    height: 50px;
+    background: #fff;
+    left: 145px;
+}
